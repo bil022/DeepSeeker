@@ -1,5 +1,8 @@
 # DeepSeeker
-How to run DeepSeek on local machine
+
+https://huggingface.co/collections/unsloth/deepseek-r1-all-versions-678e1c48f5d2fce87892ace5
+
+Run DeepSeek on local machine
 
 ```
 git clone https://github.com/ggerganov/llama.cpp.git
