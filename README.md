@@ -22,3 +22,10 @@ Hello! How can I assist you today? 😊
 
 2 raised to the power of 7 is equal to 128.
 ```
+
+ollama deep_seek 671b on mediator (memory =~ 3T, required >~600G?)
+```
+export OLLAMA_MODELS=/mnt/tscc2/share/ollama
+CUDA_VISIBLE_DEVICES="" ollama serve &
+CUDA_VISIBLE_DEVICES="" ollama run deepseek-r1:671b
+```
