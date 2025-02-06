@@ -24,8 +24,10 @@ Hello! How can I assist you today? 😊
 ```
 
 ollama deep_seek 671b on mediator (memory =~ 3T, required >~600G?)
+
 ```
 export OLLAMA_MODELS=/mnt/tscc2/share/ollama
+# systemctl restart ollama?
 CUDA_VISIBLE_DEVICES="" ollama serve &
 CUDA_VISIBLE_DEVICES="" ollama run deepseek-r1:671b
 ```
